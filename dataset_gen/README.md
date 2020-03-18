@@ -10,11 +10,11 @@ Dataset preparation for ESC-50, ESC-10 [[1]](#1), and UrbanSound8K [[2]](#2).
 
 ## [ESC-50 and ESC-10](https://github.com/karoldvl/ESC-50) setup
 
-	python esc_gen.py [path]
+	python3 esc_gen.py [path]
 
 - Following files will be generated.
 	- [path]/esc50/wav16.npz  # 16kHz, for EnvNet
-	- [path]/esc50/wav44.npz  # 44.1kHz, for EnvNet-v2
+	- [path]/esc50/wav44.npz  # 44.1kHz, for EnvNet2
 	- [path]/esc10/wav16.npz
 	- [path]/esc10/wav44.npz
 
@@ -26,11 +26,11 @@ Dataset preparation for ESC-50, ESC-10 [[1]](#1), and UrbanSound8K [[2]](#2).
 
 		mkdir -p [path]/urbansound8k
 		mv UrbanSound8K [path]/urbansound8k/
-		
+
 3. Run the following command.
 
-		python urbansound_gen.py [path]
-		
+		python3 urbansound_gen.py [path]
+
 - Following files will be generated.
 	- [path]/urbansound8k/wav16.npz
 	- [path]/urbansound8k/wav44.npz
