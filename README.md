@@ -6,7 +6,7 @@ Implementation of [Learning from Between-class Examples for Deep Sound Recogniti
 
 This also contains training of EnvNet: [Learning Environmental Sounds with End-to-end Convolutional Neural Network](http://ieeexplore.ieee.org/document/7952651/) (Yuji Tokozume and Tatsuya Harada, ICASSP 2017).<sup>[1](#1)</sup>
 
-
+Some codes in this repo are taken from [Between-class Examples for Deep Sound Recognition](https://github.com/mil-tokyo/bc_learning_sound) and [BC leraning for sounds pytoch Port](https://github.com/RerRayne/bc_learning_pytorch).
 ## Contents
 
 - Between-class (BC) learning
